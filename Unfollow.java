@@ -16,19 +16,8 @@ public class Unfollow {
     private static final String fileName = "followers.csv";
     private static final int unfollowRate = 3;
 
-//    @FindAll({@FindBy(css = "a.-nal3")})
-//    public List<WebElement> dataButtons;
-
     private static final ElementsCollection dataButtons = $$("a.-nal3");
-
-//    @FindAll({@FindBy(css = "a.FPmhX.notranslate._0imsa")})
-//    public List<WebElement> people;
-
     private static final ElementsCollection people = $$("a.FPmhX.notranslate._0imsa");
-
-//    @FindAll({@FindBy(css = "button.sqdOP.L3NKy._8A5w5")})
-//    public List<WebElement> unfollowButtons;
-
     private static final ElementsCollection unfollowButtons = $$("button.sqdOP.L3NKy._8A5w5");
 
     public static void navigateToFollowers() {

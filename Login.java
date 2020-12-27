@@ -8,7 +8,7 @@ import static com.example.instabot_test.Navigate.*;
 
 public class Login {
     private static final String USERNAME = "senior_roboto";
-    private static final String PASSWORD = "password";
+    private static final String PASSWORD = "Password1!";
 
     public static SelenideElement username = $x("//input[@aria-label='Phone number, username, or email']");
     public static SelenideElement password = $x("//input[@aria-label='Password']");

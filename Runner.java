@@ -25,25 +25,13 @@ public class Runner {
     }
 
     @Test(testName = "INZBOT")
-//    public void runTest() {
-//
-//        int i = 0;
-//        while (i < 3) {
-//            login();
-//            sleep(1000);
-//            follow();
-//            sleep(1000);
-//            i++;
-//        }
-//    }
-
     public void runTest() {
 
         login();
 
-//        follow();
+        follow();
 
-//        unfollow();
+        unfollow();
 
     }
 
